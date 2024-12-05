@@ -19,6 +19,7 @@ nav {
   width: 100%;
   margin-top: 30px;
   margin-left: 0px;
+  margin-top: -10px;
   position: fixed;
   height: 100px;
 }
@@ -34,7 +35,7 @@ nav button {
   display: inline-block;
   letter-spacing: 1px;
   cursor: pointer;
-  height: 60px;
+  height: 100%;
   box-shadow: inset 0 0 0 0 #ffffff;
   transition: ease-out 0.4s;
   cursor: pointer;
@@ -68,6 +69,7 @@ nav img {
   font-size: 60px;
   margin-left: 200px;
   color: #fff;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .user-1 p {
@@ -601,4 +603,65 @@ circle {
 }
 .copyright a:hover{
   text-decoration: underline;
+}
+.navbar-toggler-icon{
+  color: #Fff;
+}
+.user-6 .col-md-4{
+  display: flex;
+}
+@media only screen and (max-width: 970px){
+  .collapse button{
+    display: none;
+  }
+  .collapse ul{
+    display: block;
+  }
+  .user-4{
+    text-align: center;
+  }
+  .user-4 .row{
+    display: block;
+  }
+  .rty{
+    margin-left: -100px;
+  }
+  .user-4 .card{
+    margin-bottom: 20px;
+    width: 600px;
+  }
+  .user-4 h1{
+    margin-left: -30px;
+  }
+  .numbers{
+    display: block;
+  }
+  .number-1{
+    margin-left: -80px;
+  }
+  .number-2, .number-3{
+    margin-left: 40px;
+  }
+  .user-4 span{
+    margin-left: -30px;
+  }
+  .user-4 .rte{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .user-8{
+    display: block;
+  }
+  .user-8-1{
+    margin-left: 90px;
+  }
+  .user-3{
+    display: block;
+  }
+  .img-1{
+    margin-left: -150px;
+  }
+  .content-1{
+    margin-left: 50px;
+  }
 }
